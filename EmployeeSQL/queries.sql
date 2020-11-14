@@ -20,7 +20,6 @@ FROM department_employees
 LEFT JOIN employees ON department_employees.emp_no = employees.emp_no
 LEFT JOIN departments ON departments.dept_no = department_employees.dept_no
 
-
 -- Question 5
 SELECT first_name, last_name, sex
 FROM employees
