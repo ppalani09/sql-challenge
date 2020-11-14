@@ -31,7 +31,7 @@ SELECT employees.emp_no, employees.last_name, employees.first_name, departments.
 FROM department_employees
 LEFT JOIN employees ON department_employees.emp_no = employees.emp_no
 LEFT JOIN departments ON departments.dept_no = department_employees.dept_no
-WHERE dept_name = 'Sales'';
+WHERE dept_name = 'Sales';
 
 -- Question 7
 SELECT employees.emp_no, employees.last_name, employees.first_name, departments.dept_name
